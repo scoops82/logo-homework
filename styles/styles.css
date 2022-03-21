@@ -1,0 +1,33 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+section {
+  border-bottom: 2px solid;
+  padding: 2em;
+}
+
+div {
+  display: flex;
+}
+div .inner-flex-box {
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  max-width: 50%;
+}
